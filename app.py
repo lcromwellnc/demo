@@ -4,6 +4,8 @@ import socket
 
 app = Flask(__name__)
 
+# "img src = 'static/ArnoldSchwartzenegger.jpeg' ><br>" \
+
 @app.route("/")
 def hello():
         
